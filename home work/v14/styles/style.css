@@ -1,0 +1,48 @@
+/* input{
+    background-color: gray;
+}
+input[type="text"]{
+    transition: 500ms;
+    width: 200px;
+
+}
+
+input[type="text"]:focus,[type="password"],input[type="submit"]{
+    background-color: aqua;
+    outline: none;
+    border: none;
+    width: 210px;
+}
+
+label{
+    color: gray;
+    font-size: 10px;
+    padding-right: 20px;
+}
+ 
+select{
+    color:gray;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    margin: 5px !important; 
+} */
+input[type="submit"] {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    transition: 500ms;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(185, 180, 180);
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+input[type="submit"]:active{
+    transform: translateY(2px);
+}

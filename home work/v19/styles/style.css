@@ -1,0 +1,14 @@
+:root {
+    --primary-color:#007bff;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    height: 100vh;
+    background-color: var(--primary-color);
+    width: 90%;
+    width:calc(100%-100px) ;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dark red</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="shortcut icon" href="./image/97.gif" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <a href="#menu" class="nav-item">منو</a>
+        <a href="#about" class="nav-item">درباره ی ما</a>
+        <!-- <a href="#reviews" class="nav-item">نظرات</a> -->
+        <a href="#contact" class="nav-item">تماس با ما</a>
+    </nav>
+    <a href="#reserve" class="button button-mocha">رزو میز آنلاین</a>
+</header>
+
+<main>
+    <section id="menu" class="menu">
+        <h1>کافه دارک رد</h1>
+        
+        <div class="menu-category">
+            <h2>نوشیدنی‌های گرم ☕</h2>
+            <div class="menu-item">
+                <span class="item-name">اسپرسو</span>
+                <span class="item-price">۲۵,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">کاپوچینو</span>
+                <span class="item-price">۳۵,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">لاته</span>
+                <span class="item-price">۴۰,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">موکا</span>
+                <span class="item-price">۴۵,۰۰۰ تومان</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>نوشیدنی‌های سرد 🧊</h2>
+            <div class="menu-item">
+                <span class="item-name">آیس لاته</span>
+                <span class="item-price">۴۵,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">فراپه</span>
+                <span class="item-price">۵۰,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">آیس آمریکانو</span>
+                <span class="item-price">۳۵,۰۰۰ تومان</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>کیک و دسر 🍰</h2>
+            <div class="menu-item">
+                <span class="item-name">چیزکیک</span>
+                <span class="item-price">۶۰,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">تیرامیسو</span>
+                <span class="item-price">۷۰,۰۰۰ تومان</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">براونی</span>
+                <span class="item-price">۵۵,۰۰۰ تومان</span>
+            </div>
+        </div>
+    </section>
+<section id="about" class="about-us">
+    <h2>درباره ی کافه دارک رد</h2>
+    <p>کافه دارک رد با بیش از ۱۰ سال تجربه در ارائه بهترین قهوه‌های تخصصی، مکانی دنج و آرام برای لحظات خاص شماست. ما با استفاده از دانه‌های قهوه مرغوب و دستگاه‌های حرفه‌ای، طعمی بی‌نظیر را به شما هدیه می‌دهیم.</p>
+    <p>فضای گرم و صمیمی ما، همراه با موسیقی ملایم و دکوراسیون چوبی، محیطی ایده‌آل برای کار، مطالعه یا گپ‌وگفت با دوستان فراهم می‌کند.</p>
+</section>
+
+</main>
+
+<footer id="contact" class="footer">
+    <section class="contact">
+        <h2>تماس با ما</h2>
+        <p>📍 آدرس: تهران، خیابان ولیعصر، پلاک ۱۲۳</p>
+        <p>📞 تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+        <p>📧 ایمیل: info@darkred.cafe</p>
+    </section>
+    
+    <form class="form">
+        <h3>پیام خود را بفرستید</h3>
+        <input type="text" placeholder="نام و نام خانوادگی" required>
+        <input type="email" placeholder="ایمیل" required>
+        <textarea placeholder="پیام شما" rows="5" required></textarea>
+        <button type="submit" class="button button-mocha">ارسال پیام</button>
+    </form>
+    <section id="reserve" class="reserve">
+    <h2>رزرو میز</h2>
+    <form class="reserve-form">
+        <input type="text" placeholder="نام و نام خانوادگی" required>
+        <input type="tel" placeholder="شماره تماس" required>
+        <input type="date" required>
+        <input type="time" required>
+        <input type="number" placeholder="تعداد نفرات" min="1" max="10" required>
+        <button type="submit" class="button button-mocha">ثبت رزرو</button>
+    </form>
+</section>
+
+</footer>
+
+</body>
+</html>

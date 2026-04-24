@@ -1,0 +1,31 @@
+body{
+    direction: ltr;
+}
+.container{
+background-color: skyblue;
+padding: 10px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+height: 300px;
+align-items: baseline;
+/* align-content: space-between; */
+}
+.flex-item{
+background-color: yellow;
+border: solid;
+width: 50px;
+height: 50px;
+
+}
+
+.iteam-one{background-color: aqua;}
+
+.iteam-two{background-color: red ;
+align-self: center;
+}
+
+.iteam-three{background-color: blue;}
+
+.iteam-four{background-color: orange;}

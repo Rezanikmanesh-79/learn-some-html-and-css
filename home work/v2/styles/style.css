@@ -1,0 +1,17 @@
+* 
+{
+    color: red !important;
+}
+
+p 
+{
+    color:blue;
+}
+
+.class-test{
+    color: yellow;
+}
+
+#test-id{
+    color: purple;
+}

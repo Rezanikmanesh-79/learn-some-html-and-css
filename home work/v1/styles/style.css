@@ -1,0 +1,30 @@
+    /* on this this type of selector is style to all of element */
+    div {
+        background-color: red;
+    }
+    p {
+        direction: ltr;
+    }
+    span {
+        background-color: yellow;
+    }
+    /* also for useing group coloring we can use it like this */
+    h1,
+    h2,
+    h3 {
+        color: gold;
+    }
+
+/* we can create class in css with "." */
+.big-text{
+    font-size: 50px;
+}
+
+.en-text{
+    direction: ltr;
+}
+
+/* for that id in html we create this #second-text */
+#second-text{
+    color: green;
+}

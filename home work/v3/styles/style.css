@@ -1,0 +1,6 @@
+/* .shadow{
+    text-shadow: 2px 2px 5px black;
+} */
+.shadow{
+    box-shadow: 5px 5px 5px 5px black;
+}

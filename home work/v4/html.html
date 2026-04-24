@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<!-- cuz we want to use farsi -->
+<html lang="fa" dir="rtl"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE CREAM</title>
+    <style>
+        /* for removing line below the link */
+        a{
+            text-decoration: none;
+        }
+        th{
+            border:solid;
+        }
+        td {
+            border:solid;
+            text-align: center;
+        }
+        div {
+            background-color: red;
+        }
+        p{
+            direction: ltr;
+        }
+        span{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>TITLE H1</h1>
+    <h2>zer title H1(H2)</h2>
+    <h3>zer title h2 (H3)</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione, ipsa vitae odio veniam tempora ullam facere iusto, quam nostrum id, quis quae reprehenderit delectus error illum? A, ipsum id.</p>
+    <!-- for openinig new tab we use "tatget=_blank" -->
+    <a href="https://maktabkhooneh.org/" target="_blank">link</a>
+    <!-- we can also use link -->
+    <img src="./images/1.png" alt="dns pic">
+    <!-- -------------------------------------------- -->
+    <!-- for cerating orderd list we use ol -->
+    <ol>
+        <li>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, animi.
+        </li>
+    </ol>
+    <!-- for cerating un orderd list we use ol -->
+
+    <ul>
+        <li>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, animi.
+        </li>
+    </ul>
+<dl>
+    <dt>
+    <title>Title</title>
+    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, iste?</dd>
+
+</dt>
+</dl>
+<!-- --------------------------------------------------- -->
+
+<!-- for creating table -->
+ <table>
+    <thead>
+        <tr>
+    <!-- for creating 4 th we can use 4*th -->
+    <!-- row -->
+    <th>شماره</th>
+    <th>نام</th>
+    <th>سن</th>
+    <th>ایمیل</th>
+    </tr>
+</thead>
+    <!-- data -->
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>نام و نام خانودگی</td>
+            <td>18</td>
+            <td>example@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>نام و نام خانودگی</td>
+            <td>18</td>
+            <td>example@gmail.com</td>
+        <tr>
+            <td>3</td>
+            <td>نام و نام خانودگی</td>
+            <td>18</td>
+            <td>example@gmail.com</td>
+        </tr>
+        </tr>
+    </tbody>
+</table>
+
+<!-- ------------------------------------------------------------------------------------and now we create our form in hear -->
+ <form >
+    <label for="firs-name">نام کاربر</label>
+    <input type="text" placeholder="نام خود را وارد کنید" name="firs-name" id="firs-name" required>
+    <!-- we use label for accesbility  -->
+    <label for="last-name">نام خانوادگی</label>
+    <!-- in hear for server we use name and id for css -->
+    <input type="text" placeholder="نام خانوادگی خودرا وارد کنید" name="last-name" id="last-name" required>
+    <!-- for groupin we use -->
+    <fieldset>
+        <legend>جنسیت</legend>
+    <label for="male">مرد</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">زن</label>
+    <input type="radio" name="gender" id="female">
+    </fieldset>
+    <br />
+    <label for="newsleter">درخبر نامه عضو میشوم</label>
+    <input type="checkbox" name="newsleter" id="newsleter">
+    <input type="email">
+    <input type="submit" value="ارسال">
+    <input type="submit" value="حذف اطلاعات">
+    <input type="email">
+    <input type="password">
+    <input type="tel" name="" id="">
+    <input type="number" min="" max="" name="" id="">
+    <input type="url" name="" id="">
+    <textarea name="" id="" cols="35" rows="15"></textarea> 
+    <input type="date" name="" id="">
+    <input type="color" name="" id="">
+    <input type="range" min="" max="" step="" name="" id="">
+    <input type="file" multiple name="" id="">
+    <select name="" id="">
+        <option value="1">1</option>
+    </select>
+        <datalist id="list">
+            <option value="2">2</option>
+        </datalist>
+<!-- ----------------------Layout --------------------------- -->
+</form>
+<br />
+<div>hello</div>
+<p>Lorem ipsum dolor sit, amet <span> consectetur adipisicing elit.</span> Atque minus possimus unde commodi dignissimos ipsum. Neque, fugit cupiditate! Repellendus in minima asperiores ipsa accusantium magnam voluptates, distinctio porro eaque! Inventore!</p>
+</body>
+</body>
+</html>

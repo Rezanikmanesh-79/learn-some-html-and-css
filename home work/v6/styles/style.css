@@ -1,0 +1,12 @@
+/* absolute unit : cm,mm,*px */
+/* relative units :rem,em,% */
+.test{
+    font-size: 20px;
+    background-color: yellow;
+}
+
+.test2{
+    font: 1em;
+    background-color: red;
+    width: 50%;
+}

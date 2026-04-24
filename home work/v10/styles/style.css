@@ -1,0 +1,9 @@
+p{
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: green; */
+    border: 5px solid green;
+    border-radius: 15;
+    outline: 10px solid orange;
+    outline-offset: 5px;
+}
